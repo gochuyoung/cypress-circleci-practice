@@ -3,7 +3,6 @@
 describe('suite 1', () => {
 
     it('test1', () => {
-
-        1==3
+        cy.visit('https://allegro.pl').should('eq', '42')
     })
 })
