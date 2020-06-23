@@ -4,6 +4,6 @@ describe('suite 1', () => {
 
     it('test1', () => {
 
-        cy.visit('https://allegro.pl')
+        1==2
     })
 })
