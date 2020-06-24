@@ -11,4 +11,4 @@ workflows:
             - store_test_results:
                 path: cypress/results/junit
             - store_artifacts:
-                path: cypress/results/mochawesome
+                path: cypress/results/mochawesome/frontend-e2e-report.html
