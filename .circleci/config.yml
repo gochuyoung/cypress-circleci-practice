@@ -9,6 +9,6 @@ workflows:
       - cypress/run:
           post-steps:
             - store_test_results:
-                path: cypress/results/
+                path: cypress/results/junit
             - store_artifacts:
-                path: cypress/results
+                path: cypress/results/mochawesome

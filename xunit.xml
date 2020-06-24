@@ -1,0 +1,5 @@
+<testsuite name="Mocha Tests" tests="1" failures="0" errors="1" skipped="0" timestamp="Tue, 23 Jun 2020 20:00:47 GMT" time="8.653">
+<testcase classname="suite 1" name="test1" time="0"><failure>expected &#x27;&#x3C;window&#x3E;&#x27; to equal &#x27;42&#x27;
+AssertionError: expected &#x27;&#x3C;window&#x3E;&#x27; to equal &#x27;42&#x27;
+    at Context.eval (https://allegro.pl/__cypress/tests?p=cypress/integration/basic.spec.js:7:36)</failure></testcase>
+</testsuite>
